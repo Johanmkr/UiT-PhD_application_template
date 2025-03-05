@@ -1,0 +1,94 @@
+\documentclass{uitphd_app}
+\usepackage[
+backend=biber,
+style=authoryear,
+natbib=true,
+dashed=false,
+sorting=ynt
+]{biblatex}
+\addbibresource{refs/refs.bib}
+
+\begin{document}
+
+% PERSONAL INFORMATION
+\import{./sections}{00_personal_information}
+
+% INTRODUCTION TO THE PROJECT DESCRIPTION
+\newpage
+\uitsection*{Introduction to the project description}
+\import{./sections}{01_introduction}
+
+% 1 SHORT POPULAR SCIENTIFIC SUMMARY
+\uitsection{Short popular scientific summary}
+\import{./sections}{1_short_popular_scientific_summary}
+
+% 2 BACKGROUND AND STATE OF THE ART 
+\uitsection{Background and state of the art}
+\import{./sections}{2_background_and_state_of_art}
+
+% 3 OBJECTIVES AND HYPOTHESES
+\uitsection{Objectives and hypotheses}
+\import{./sections}{3_objective_and_hypotheses}
+
+% 4 IMPLEMENTATION AND METHODS
+\uitsection{Implementation and methods}
+\import{./sections}{4_implementation_and_methods}
+
+% 5 TIME SCHEDULE WITH MILESTONES 
+\uitsection{Time schedule with milestones}
+\import{./sections}{5_time_schedule_with_milestones}
+
+% 6 EDUCATION PLAN
+\uitsection{Education plan}
+\import{./sections}{6_education_plan}
+
+% 7 SAFETY TRAINING
+\uitsection{Safety training}
+\import{./sections}{7_safety_training}
+
+% 8 SUPERVISION 
+\uitsection{Supervision}
+\import{./sections}{8_supervision}
+
+% 9 PUBLICATION PLAN
+\uitsection{Publication plan}
+\import{./sections}{9_publication_plan}
+
+% 10 DATA MANAGEMENT PLAN
+\uitsection{Data management plan}
+\import{./sections}{10_data_management_plan}
+
+% 11 TENTATIVE PLAN FOR TEACHING AND OTHER OBLIGATORY WORK
+\uitsection{Tentative plan for teaching and other obligatory work}
+\import{./sections}{11_tentative_plan_for_teaching_and_other_obligatory_work}
+
+% 12 AFFILIATION TO RESEARCH GROUPS , RESEARCH SCHOOLS AND COOPERATION WITH OTHER INSTITUTIONS 
+\uitsection{Affiliation to research groups, research schools and cooperation with other institutions}
+\import{./sections}{12_affiliations}
+
+% 13 BUDGET AND FUNDING PLAN
+\uitsection{Budget and funding plan}
+\import{./sections}{13_budget_and_funding_plan}
+
+% 14 ETHICAL CONSIDERATIONS
+\uitsection{Ethical considerations}
+\import{./sections}{14_ethical_considerations}
+
+% 15 INNOVATION
+\uitsection{Innovation}
+\import{./sections}{15_innovation}
+
+% 16 REFLECTION ON PROGRESS
+\uitsection{Reflection on progress}
+\import{./sections}{16_reflection_on_progress}
+
+% 17 SIGNATURES
+\newpage
+\uitsection{Signatures}
+\import{./sections}{17_signatures}
+
+% 18 REVISION OF THE PROJECT PLAN  
+\uitsection{Revision of the project plan}
+\import{./sections}{18_revision_of_project_plan}
+
+\end{document}
