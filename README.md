@@ -3,6 +3,23 @@ A Tex template for the PhD - application at UiT -  The Arctic University of Norw
 
 Feel free to use this for you PhD application. Good luck with your studies.
 
+## Downloading
+You can download this repository in various ways.
+
+### Clone repository
+If you want the full history of the repository you could make a local copy of it by cloning it. Run the following in your terminal:
+
+    git clone git@github.com:Johanmkr/UiT-PhD_application_template.git
+
+### Download source archive
+In order to download the source archive, look for the desired release under [releases](https://github.com/Johanmkr/UiT-PhD_application_template/releases) in the right column on the github page. 
+
+The latest release can be downloaded by entering:
+
+    wget --recursive --level=1 --no-directories --accept-regex '(tar.gz|patch)$' https://github.com/Johanmkr/UiT-PhD_application_template/releases/latest
+
+into the terminal. 
+
 ## Compiling
 If you compile the file `application.tex` it should work out of the box.
 
